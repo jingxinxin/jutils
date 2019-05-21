@@ -1,5 +1,5 @@
 {
-  "name": "jutils",
+  "name": "@jacks/jutils",
   "version": "0.0.1",
   "description": "A common set of JavaScript tool Libraries",
   "main": "index.js",

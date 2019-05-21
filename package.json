@@ -1,0 +1,35 @@
+{
+  "name": "jutils",
+  "version": "0.0.1",
+  "description": "A common set of JavaScript tool Libraries",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "esm": "^3.2.25"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jingxinxin/jutils.git"
+  },
+  "keywords": [
+    "jutils"
+  ],
+  "author": "Jack Stark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jingxinxin/jutils/issues"
+  },
+  "homepage": "https://github.com/jingxinxin/jutils#readme",
+  "ava": {
+    "require": [
+      "esm"
+    ]
+  }
+}

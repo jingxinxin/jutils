@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/jingxinxin/jutils/compare/v0.0.2...v0.0.3) (2019-05-31)
+
+
+### Bug Fixes
+
+* **docs:** 修复changelog页面404问题 ([69e304b](https://github.com/jingxinxin/jutils/commit/69e304b))
+* **docs:** 删除zh-cn/CHANGELOG.md文件,修复_sidebar.md中的路径 ([e245968](https://github.com/jingxinxin/jutils/commit/e245968))
+
+
+
 ### [0.0.2](https://github.com/jingxinxin/jutils/compare/v0.0.1...v0.0.2) (2019-05-31)
 
 

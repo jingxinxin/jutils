@@ -1,2 +1,2 @@
 * [Getting started](/)
-* [changelog](zh-cn//changelog)
+* [changelog](changelog.md)

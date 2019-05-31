@@ -1,2 +1,5 @@
 src/
 test.js
+docs/
+.idea
+*.config.js

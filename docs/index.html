@@ -22,7 +22,11 @@
     mergeNavbar  : true,
     maxLevel     : 4,
     subMaxLevel  : 2,
-    formatUpdated: '{MM}/{DD} {HH}:{mm}'
+    formatUpdated: '{MM}/{DD} {HH}:{mm}',
+    alias        : {
+      '.*?/changelog' : 'https://raw.githubusercontent.com/jingxinxin/jutils/master/CHANGELOG.md',
+      '/.*/_navbar.md': '/_navbar.md'
+    }
   }
 </script>
 <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>

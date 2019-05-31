@@ -2,14 +2,18 @@
   "name": "@jacks/jutils",
   "version": "0.0.1",
   "description": "A common set of JavaScript tool Libraries",
-  "main": "index.js",
+  "main": "lib/index.js",
   "dependencies": {
+    "@babel/polyfill": "^7.4.4",
     "lodash": "^4.17.11",
     "moment": "^2.24.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
     "ava": "^1.4.1",
-    "esm": "^3.2.25"
+    "esm": "^3.2.25",
+    "webpack": "^4.32.0"
   },
   "scripts": {
     "test": "ava"
@@ -30,6 +34,8 @@
   "ava": {
     "require": [
       "esm"
-    ]
+    ],
+    "babel": false,
+    "compileEnhancements": false
   }
 }

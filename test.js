@@ -1,6 +1,5 @@
 import test from 'ava'
-import { cleanEmpty, differenceObj, getDateByID, getPageCount, getTimestampByID } from './index'
-
+import { cleanEmpty, differenceObj, getDateByID, getPageCount, getTimestampByID } from './lib'
 
 test('getTimestampByID', t => {
   t.is(getTimestampByID('5cd0a3b7e643b94cd660abb8'), 1557177271000)

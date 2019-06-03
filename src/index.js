@@ -1,12 +1,5 @@
 import moment from 'moment'
-import {
-  find,
-  isEqual,
-  isNaN,
-  isNil,
-  isObject,
-  transform
-} from 'lodash'
+import { find, isEqual, isNaN, isNil, isObject, transform } from 'lodash'
 
 // Get Timestamp based on mongoId
 export const getTimestampByID = _id => parseInt(_id.toString().substring(0, 8), 16) * 1000
@@ -33,4 +26,4 @@ export const getPageCount = (count, limit) => Math.ceil((count | 0) / limit)
 export const cleanEmpty = object => Object.keys(object).forEach(key => (object[ key ] === '' || isNil(object[ key ]) || isNaN(object[ key ])) ? delete object[ key ] : object[ key ])
 
 // 根据value匹配集合中对应的对象
-export const findCollectionObj = (collection, predicate) => find(collection, predicate) || {}
+export const findCollectionObj = (collection, predicate, fromIndex) => find(collection, predicate, fromIndex) || {}

@@ -9,3 +9,29 @@
 ```
 getTimestampByID(_id)
 ```
+
+根据mongoId获取日期
+
+```
+getDateByID(_id)
+```
+
+## 其他
+
+对比对象的差异
+
+```
+differenceObj(object, base)
+```
+
+计算页数
+
+```
+getPageCount(count, limit)
+```
+
+删除空数据的字段
+
+```
+cleanEmpty(object)
+```

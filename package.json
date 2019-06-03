@@ -1,6 +1,6 @@
 {
   "name": "@jacks/jutils",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A common set of JavaScript tool Libraries",
   "main": "lib/index.js",
   "dependencies": {

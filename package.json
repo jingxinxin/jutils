@@ -16,7 +16,8 @@
     "webpack": "^4.32.0"
   },
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "compile": "babel src --out-dir lib"
   },
   "repository": {
     "type": "git",

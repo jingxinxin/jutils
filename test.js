@@ -1,12 +1,5 @@
 import test from 'ava'
-import {
-  cleanEmpty,
-  differenceObj,
-  getDateByID,
-  getPageCount,
-  getTimestampByID,
-  findCollectionObj
-} from './lib'
+import { cleanEmpty, differenceObj, findCollectionObj, getDateByID, getPageCount, getTimestampByID } from './lib'
 
 test('getTimestampByID', t => {
   t.is(getTimestampByID('5cd0a3b7e643b94cd660abb8'), 1557177271000)
@@ -69,8 +62,8 @@ test('findCollectionObj', t => {
       sex : 1
     }
   ]
-  t.deepEqual(findCollectionObj(collection,{name:'ww'}),{name:'ww',sex:0})
-  t.deepEqual(findCollectionObj(collection,['sex',1]),{name:'aa',sex:1})
+  t.deepEqual(findCollectionObj(collection, { name: 'ww' }), { name: 'ww', sex: 0 })
+  t.deepEqual(findCollectionObj(collection, [ 'sex', 1 ]), { name: 'aa', sex: 1 })
 })
 
 test('foo', t => {
